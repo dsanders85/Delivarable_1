@@ -31,7 +31,7 @@ class Program
                 //restock
                 if (remainingsodasStock <= sodasRestock)
                 {
-                    initialsodasStock += sodasRestock;
+                    initialsodasStock = remainingsodasStock;
 
                 }
             }
@@ -57,7 +57,7 @@ class Program
                 //RESTOCK
                 if (remainingchipsStock <= chipsRestock)
                 {
-                    initialchipsStock += chipsRestock;
+                    initialchipsStock = remainingchipsStock;
 
                 }
             }
@@ -83,7 +83,7 @@ class Program
                 //CANDY RESTOCK
                 if (remainingcandyStock <= candyRestock)
                 {
-                    initialcandyStock += candyRestock;
+                    initialcandyStock = remainingcandyStock ;
 
                 }
             }
